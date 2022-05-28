@@ -624,3 +624,50 @@ FileNotFoundError: [Errno 2] No such file or directory: 'conda': 'conda'
 2022-05-28 06:29:04,776 DEBUG   HandlerThread:35799 [handler.py:handle_request():131] handle_request: stop_status
 2022-05-28 06:29:04,777 DEBUG   SenderThread:35799 [sender.py:send_request():249] send_request: stop_status
 2022-05-28 06:29:04,868 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:06,869 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:08,870 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:10,871 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:12,873 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:14,874 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:16,874 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:18,876 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:19,995 DEBUG   HandlerThread:35799 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-28 06:29:19,995 DEBUG   SenderThread:35799 [sender.py:send_request():249] send_request: stop_status
+2022-05-28 06:29:20,877 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:22,878 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:24,879 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:26,880 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:28,881 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:30,882 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:31,413 DEBUG   SenderThread:35799 [sender.py:send():235] send: stats
+2022-05-28 06:29:32,883 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:34,884 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:35,191 DEBUG   HandlerThread:35799 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-28 06:29:35,191 DEBUG   SenderThread:35799 [sender.py:send_request():249] send_request: stop_status
+2022-05-28 06:29:36,886 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:38,887 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:40,888 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:42,889 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:44,891 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:46,892 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:48,893 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:50,405 DEBUG   HandlerThread:35799 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-28 06:29:50,405 DEBUG   SenderThread:35799 [sender.py:send_request():249] send_request: stop_status
+2022-05-28 06:29:50,895 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:52,896 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:54,898 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:29:56,898 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:05,353 DEBUG   SenderThread:35799 [sender.py:send():235] send: stats
+2022-05-28 06:30:05,614 DEBUG   HandlerThread:35799 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-28 06:30:05,615 DEBUG   SenderThread:35799 [sender.py:send_request():249] send_request: stop_status
+2022-05-28 06:30:06,904 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:07,905 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:08,906 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:10,907 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:12,908 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:14,909 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:16,910 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:18,911 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:20,912 INFO    Thread-8  :35799 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/seg/wandb/run-20220528_061421-31g78agg/files/output.log
+2022-05-28 06:30:20,956 DEBUG   HandlerThread:35799 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-28 06:30:20,957 DEBUG   SenderThread:35799 [sender.py:send_request():249] send_request: stop_status

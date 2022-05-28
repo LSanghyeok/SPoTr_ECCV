@@ -45,3 +45,4 @@ Test 1, loss: 2.622227, test acc: 0.563278, test avg acc: 0.225125, cat iou: 0.2
 Train 2, loss: 1.619258, train acc: 0.890290, train avg acc: 0.516431, train iou: 0.761602
 Test 2, loss: 1.533802, test acc: 0.888863, test avg acc: 0.566375, cat iou: 0.549887, test iou: 0.763621, Best test iou: 0.763621
 Test 2, loss: 2.213657, test acc: 0.680626, test avg acc: 0.305426, cat iou: 0.358998, test iou: 0.591333, Best test iou: 0.591333
+Train 3, loss: 1.575631, train acc: 0.905220, train avg acc: 0.563798, train iou: 0.777534
