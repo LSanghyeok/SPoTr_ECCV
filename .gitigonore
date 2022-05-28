@@ -1,4 +1,6 @@
 *wandb*
+cls/wandb
+seg/wandb
 cls/data
 seg/data
 *checkpoints*

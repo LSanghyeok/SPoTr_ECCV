@@ -476,3 +476,51 @@ Test 2, loss: 1.533802, test acc: 0.888863, test avg acc: 0.566375, cat iou: 0.5
 
 
 
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████| 45/45 [00:20<00:00,  2.22it/s]
+Test 3, loss: 1.501984, test acc: 0.904056, test avg acc: 0.614394, cat iou: 0.590746, test iou: 0.781221, Best test iou: 0.781221
+/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/numpy/core/_asarray.py:171: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return array(a, dtype, copy=False, order=order, subok=True)
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████| 45/45 [00:20<00:00,  2.18it/s]
+Test 3, loss: 2.027448, test acc: 0.724798, test avg acc: 0.337847, cat iou: 0.388057, test iou: 0.631501, Best test iou: 0.631501
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
