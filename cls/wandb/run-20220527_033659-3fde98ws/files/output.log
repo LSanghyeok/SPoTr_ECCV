@@ -1,0 +1,25 @@
+  0%|                                                                                         | 0/307 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 436, in <module>
+    train(args, io)
+  File "main.py", line 117, in train
+    logits = model(data)
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "../cls/model.py", line 110, in forward
+    x, xyz, g, g_xyz, cen, _, _, _ = self.blocks[i](x, xyz)
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "../model_utils.py", line 483, in forward
+    x, g, g_xyz, att1, att2, att3 = self.DGPA[l](x, xyz)
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "../model_utils.py", line 655, in forward
+    g, att_map1, att_map2 = bikernel(g_xyz, xyz, g, x, x, self.gamma.to(g_xyz.device))
+  File "../model_utils.py", line 119, in bikernel
+    att_map1 = torch.where(dist_exp <= 0.05, zero, att_map1)
+UnboundLocalError: local variable 'dist_exp' referenced before assignment

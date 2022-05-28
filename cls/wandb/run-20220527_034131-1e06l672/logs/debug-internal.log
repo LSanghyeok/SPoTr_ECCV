@@ -1,0 +1,81 @@
+2022-05-27 03:41:32,608 INFO    MainThread:1072 [internal.py:wandb_internal():92] W&B internal server running at pid: 1072, started at: 2022-05-27 03:41:32.607761
+2022-05-27 03:41:32,612 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: check_version
+2022-05-27 03:41:32,612 INFO    WriterThread:1072 [datastore.py:open_for_write():77] open: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/run-1e06l672.wandb
+2022-05-27 03:41:32,617 DEBUG   SenderThread:1072 [sender.py:send():235] send: header
+2022-05-27 03:41:32,617 DEBUG   SenderThread:1072 [sender.py:send_request():249] send_request: check_version
+2022-05-27 03:41:32,695 DEBUG   SenderThread:1072 [sender.py:send():235] send: run
+2022-05-27 03:41:38,076 INFO    SenderThread:1072 [dir_watcher.py:__init__():169] watching files in: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files
+2022-05-27 03:41:38,077 INFO    SenderThread:1072 [sender.py:_start_run_threads():812] run started: 1e06l672 with start time 1653622891
+2022-05-27 03:41:38,077 DEBUG   SenderThread:1072 [sender.py:send():235] send: summary
+2022-05-27 03:41:38,077 INFO    SenderThread:1072 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-05-27 03:41:38,079 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: run_start
+2022-05-27 03:41:38,092 DEBUG   HandlerThread:1072 [meta.py:__init__():36] meta init
+2022-05-27 03:41:38,092 DEBUG   HandlerThread:1072 [meta.py:__init__():50] meta init done
+2022-05-27 03:41:38,092 DEBUG   HandlerThread:1072 [meta.py:probe():210] probe
+2022-05-27 03:41:38,102 DEBUG   HandlerThread:1072 [git.py:repo():33] git repository is invalid
+2022-05-27 03:41:38,102 DEBUG   HandlerThread:1072 [meta.py:_save_pip():54] save pip
+2022-05-27 03:41:38,103 DEBUG   HandlerThread:1072 [meta.py:_save_pip():68] save pip done
+2022-05-27 03:41:38,103 DEBUG   HandlerThread:1072 [meta.py:_save_conda():75] save conda
+2022-05-27 03:41:38,113 ERROR   HandlerThread:1072 [meta.py:_save_conda():84] Error saving conda packages
+Traceback (most recent call last):
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/wandb/sdk/internal/meta.py", line 81, in _save_conda
+    ["conda", "env", "export"], stdout=f, stderr=subprocess.DEVNULL
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/subprocess.py", line 339, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda': 'conda'
+2022-05-27 03:41:38,117 DEBUG   HandlerThread:1072 [meta.py:_save_conda():85] save conda done
+2022-05-27 03:41:38,117 DEBUG   HandlerThread:1072 [meta.py:probe():248] probe done
+2022-05-27 03:41:38,131 DEBUG   SenderThread:1072 [sender.py:send():235] send: files
+2022-05-27 03:41:38,131 INFO    SenderThread:1072 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-05-27 03:41:38,149 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-27 03:41:38,150 DEBUG   SenderThread:1072 [sender.py:send_request():249] send_request: stop_status
+2022-05-27 03:41:38,479 DEBUG   SenderThread:1072 [sender.py:send():235] send: config
+2022-05-27 03:41:38,726 INFO    Thread-11 :1072 [upload_job.py:push():137] Uploaded file /tmp/tmphv94jncowandb/36mk398w-wandb-metadata.json
+2022-05-27 03:41:39,081 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/conda-environment.yaml
+2022-05-27 03:41:39,081 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/output.log
+2022-05-27 03:41:39,082 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/requirements.txt
+2022-05-27 03:41:39,082 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/wandb-metadata.json
+2022-05-27 03:41:39,083 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_created():217] file/dir created: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/wandb-summary.json
+2022-05-27 03:41:41,078 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/output.log
+2022-05-27 03:41:45,081 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/output.log
+2022-05-27 03:41:47,082 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/output.log
+2022-05-27 03:41:53,485 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-27 03:41:53,486 DEBUG   SenderThread:1072 [sender.py:send_request():249] send_request: stop_status
+2022-05-27 03:42:03,094 INFO    Thread-8  :1072 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/config.yaml
+2022-05-27 03:42:08,705 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-27 03:42:08,706 DEBUG   SenderThread:1072 [sender.py:send_request():249] send_request: stop_status
+2022-05-27 03:42:09,985 DEBUG   SenderThread:1072 [sender.py:send():235] send: stats
+2022-05-27 03:42:23,917 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-27 03:42:23,918 DEBUG   SenderThread:1072 [sender.py:send_request():249] send_request: stop_status
+2022-05-27 03:42:39,155 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-27 03:42:39,156 DEBUG   SenderThread:1072 [sender.py:send_request():249] send_request: stop_status
+2022-05-27 03:42:43,221 DEBUG   SenderThread:1072 [sender.py:send():235] send: stats
+2022-05-27 03:42:54,376 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-27 03:42:54,377 DEBUG   SenderThread:1072 [sender.py:send_request():249] send_request: stop_status
+2022-05-27 03:43:09,606 DEBUG   HandlerThread:1072 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-27 03:43:09,607 DEBUG   SenderThread:1072 [sender.py:send_request():249] send_request: stop_status
+2022-05-27 03:43:11,998 WARNING MainThread:1072 [internal.py:wandb_internal():152] Internal process interrupt: 1
+2022-05-27 03:43:12,204 WARNING MainThread:1072 [internal.py:wandb_internal():152] Internal process interrupt: 2
+2022-05-27 03:43:12,204 ERROR   MainThread:1072 [internal.py:wandb_internal():155] Internal process interrupted.
+2022-05-27 03:43:12,228 INFO    WriterThread:1072 [datastore.py:close():281] close: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/run-1e06l672.wandb
+2022-05-27 03:43:12,618 INFO    HandlerThread:1072 [handler.py:finish():739] shutting down handler
+2022-05-27 03:43:12,818 INFO    SenderThread:1072 [sender.py:finish():1075] shutting down sender
+2022-05-27 03:43:12,819 INFO    SenderThread:1072 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-05-27 03:43:13,112 INFO    SenderThread:1072 [dir_watcher.py:finish():313] scan: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files
+2022-05-27 03:43:13,112 INFO    SenderThread:1072 [dir_watcher.py:finish():327] scan save: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/wandb-summary.json wandb-summary.json
+2022-05-27 03:43:13,113 INFO    SenderThread:1072 [dir_watcher.py:finish():327] scan save: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/conda-environment.yaml conda-environment.yaml
+2022-05-27 03:43:13,125 INFO    SenderThread:1072 [dir_watcher.py:finish():327] scan save: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/config.yaml config.yaml
+2022-05-27 03:43:13,126 INFO    SenderThread:1072 [dir_watcher.py:finish():327] scan save: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/output.log output.log
+2022-05-27 03:43:13,127 INFO    SenderThread:1072 [dir_watcher.py:finish():327] scan save: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/requirements.txt requirements.txt
+2022-05-27 03:43:13,138 INFO    SenderThread:1072 [dir_watcher.py:finish():327] scan save: /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/wandb-metadata.json wandb-metadata.json
+2022-05-27 03:43:13,139 INFO    SenderThread:1072 [file_pusher.py:finish():177] shutting down file pusher
+2022-05-27 03:43:13,141 INFO    SenderThread:1072 [file_pusher.py:join():182] waiting for file pusher
+2022-05-27 03:43:13,720 INFO    Thread-12 :1072 [upload_job.py:push():137] Uploaded file /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/wandb-summary.json
+2022-05-27 03:43:24,947 INFO    Thread-14 :1072 [upload_job.py:push():137] Uploaded file /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/output.log
+2022-05-27 03:43:24,960 INFO    Thread-15 :1072 [upload_job.py:push():137] Uploaded file /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/requirements.txt
+2022-05-27 03:43:29,082 INFO    Thread-13 :1072 [upload_job.py:push():137] Uploaded file /home/sanghyeok/spotr/cls/wandb/run-20220527_034131-1e06l672/files/config.yaml
+2022-05-27 03:43:29,861 INFO    MainThread:1072 [internal.py:handle_exit():79] Internal process exited

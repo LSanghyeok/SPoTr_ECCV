@@ -1,0 +1,138 @@
+
+Lin
+Let's use 1 GPUs!
+Use SGD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|███████████████████████████████████████████████████████████████████████████████| 218/218 [03:02<00:00,  1.20it/s]
+Train 0, loss: 2.041475, train acc: 0.737048, train avg acc: 0.303861, train iou: 0.619592
+
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████| 45/45 [00:18<00:00,  2.37it/s]
+Test 0, loss: 1.652396, test acc: 0.850479, test avg acc: 0.451267, cat iou: 0.464121, test iou: 0.718236, Best test iou: 0.718236
+/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/numpy/core/_asarray.py:171: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return array(a, dtype, copy=False, order=order, subok=True)
+
+
+
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████████| 45/45 [00:18<00:00,  2.42it/s]
+Test 0, loss: 2.753186, test acc: 0.476914, test avg acc: 0.148965, cat iou: 0.191986, test iou: 0.397420, Best test iou: 0.397420
+
+
+
+
+
+
+  7%|█████▌                                                                          | 15/218 [00:14<03:10,  1.07it/s]
+Traceback (most recent call last):
+  File "main.py", line 697, in <module>
+    train(args, io)
+  File "main.py", line 266, in train
+    loss.backward()
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/sanghyeok/.conda/envs/spotr/lib/python3.7/site-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: [/opt/conda/conda-bld/pytorch_1631630742027/work/third_party/gloo/gloo/transport/tcp/pair.cc:598] Connection closed by peer [127.0.1.1]:55719

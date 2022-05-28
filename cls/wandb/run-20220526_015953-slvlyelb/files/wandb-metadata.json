@@ -1,0 +1,29 @@
+{
+    "os": "Linux-4.15.0-166-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-05-26T01:59:55.221334",
+    "startedAt": "2022-05-26T01:59:53.855939",
+    "docker": null,
+    "gpu": "TITAN RTX",
+    "gpu_count": 8,
+    "cpu_count": 40,
+    "cuda": "10.2.89",
+    "args": [
+        "--lr",
+        "0.05",
+        "--min_lr",
+        "0.0005",
+        "--att_type",
+        "dotloc",
+        "--epochs",
+        "200",
+        "--use_wandb",
+        "True"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "host": "mlvgpuserver02",
+    "username": "sanghyeok",
+    "executable": "/home/sanghyeok/.conda/envs/spotr/bin/python"
+}

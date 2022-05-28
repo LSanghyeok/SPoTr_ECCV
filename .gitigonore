@@ -1,0 +1,5 @@
+*wandb*
+cls/data
+seg/data
+*checkpoints*
+*__pycache__*

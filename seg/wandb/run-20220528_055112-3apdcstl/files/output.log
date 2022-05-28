@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 697, in <module>
+    train(args, io)
+  File "main.py", line 204, in train
+    model = DeformablePoTR_seg(args, seg_num_all).to(device)
+  File "../seg/model.py", line 88, in __init__
+    self.bi_version = args.bi_version
+AttributeError: 'Namespace' object has no attribute 'bi_version'
